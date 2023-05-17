@@ -56,5 +56,5 @@ int main(void) {
  
     cout << answer << "\n";
  
-    return 0;
+    return 0; 
 }
