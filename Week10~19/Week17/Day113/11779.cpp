@@ -42,7 +42,6 @@ void dijkstra(int start, int end) // start에서 end로 가는 최단 경로를 
         if(visit[curp] == 1) // 이미 이 노드에서 탐색을 시행했다면
             continue;
         visit[curp] = 1; // 탐색 표시
-        path.push_back(curp);
         for(int i = 0; i < v[curp].size(); i++)
         {
             int nextd = v[curp][i].second;
