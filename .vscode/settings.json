@@ -1,4 +1,11 @@
 {
     "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
-    "C_Cpp.default.compilerPath": "/usr/bin/g++"
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "files.associations": {
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "random": "cpp"
+    }
 }
